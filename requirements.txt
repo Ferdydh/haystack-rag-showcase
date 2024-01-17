@@ -1,0 +1,7 @@
+haystack-ai
+qdrant-haystack
+sentence-transformers
+scrapy
+langdetect
+beautifulsoup4
+requests

@@ -1,0 +1,13 @@
+services:
+  qdrant_en:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./qdrant_data_en:/qdrant/storage
+  qdrant_de:
+      image: qdrant/qdrant:latest
+      ports:
+        - "6334:6333"
+      volumes:
+        - ./qdrant_data_de:/qdrant/storage
